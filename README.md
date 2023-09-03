@@ -1,4 +1,5 @@
-# 網頁切版直播班 Vite 範例
+# 網頁切版直播班
+  - This is a backboard layout practicing project with vite.
 
 ## Node.js 版本
   - 專案的 Node.js 版本需為 v16 以上

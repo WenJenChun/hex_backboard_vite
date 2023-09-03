@@ -1,0 +1,14 @@
+*{
+	box-sizing: border-box;
+}
+
+body, footer, header{
+    font-family: $font-family-base;
+}
+
+// utils
+
+.bold{
+    font-weight: bold;
+}
+
