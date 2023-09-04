@@ -1,3 +1,38 @@
 .index-title {
   font-size: 100px;
 }
+
+nav{
+  position: fixed;
+  min-width: 200px;
+  min-height: 100vh;
+  padding: 40px 32px 32px 32px;
+
+  a{
+    text-decoration: none;
+    display: block;
+  }
+}
+
+.nav-active::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 4px;
+  height: 32px;
+  border-left: 4px solid #198754;
+}
+
+.avatar{
+  object-fit: cover;
+  object-position: center;
+  width: 40px;
+  height: 40px;
+}
+
+
+.main{
+  margin-left: 300px;
+  padding-top: 40px;
+  padding-right: 40px;
+}
